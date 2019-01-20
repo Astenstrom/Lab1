@@ -22,6 +22,6 @@ function getSynonyms(){
     }
     }
 
-    request.send();    
+    request.send();
     
 }
