@@ -14,24 +14,20 @@
     
 </head>
 
+<div class="header">
+    <img src="synonymlogo.svg" alt="Synonym Rolls Logo">   
+</div>
+
 <body class="cinnaBody">
 
-    <h1>Synonym Rolls</h1>
-    <p>Find a synonym here.</p>
-
-    <svg height="100" width="100">
-        <circle cx="50" cy="50" r="40" stroke-width="3" fill="#B89685" />
-    </svg>
-
+    <p>Search for a Synonym:</p>
     <div>
-
-        <form>
-            Word: <input type="text" id="searchInput">
-        </form>
-        <button onclick="getSynonyms()">Submit</button>
+        <input id="searchInput" class="form-control-sm" type="text" placeholder="word">
     </div>
-
-    <div id="resultsArea">
+    <div class="search">
+        <button onclick="getSynonyms()" type="button" class="btn btn-secondary">Search</button>
+    </div>
+    <div class="resultsArea" id="resultsArea">
         <h1>Results</h1>
     </div>
 
