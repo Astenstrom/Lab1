@@ -29,9 +29,24 @@ p {
     text-align:center;
     padding: 50px 20px 70px 20px;
 }
-
+.searchform{
+    width: 400px;
+    height: 70px;
+    border-color: #332E3C;
+    border-width: 2px;
+    border-radius: 60px;
+    padding: 12px 30px;
+    background-color: #ffffff;
+    font-size: 25px;
+    font-weight: 500;
+    font-family: Open Sans;
+    color: #332E3C;  
+}
 .search{
-    padding: 60px 20px 60px 20px   
+    font-family: Open Sans;
+    padding: 60px 20px 60px 20px;
+
+    
 }
 
 .searchbutton{
@@ -45,15 +60,3 @@ p {
     color: #332E3C;  
 }
 
-.searchform{
-    width: 400px;
-    height: 65px;
-    border-color: #332E3C;
-    border-width: 2px;
-    padding: 12px 30px;
-    background-color: #EFE8E3;
-    font-size: 25px;
-    font-weight: 500;
-    font-family: Open Sans;
-    color: #332E3C;  
-}
