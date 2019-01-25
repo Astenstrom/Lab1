@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans');
-
 .cinnaBody {
     background-color: #EFE8E3;
     text-align:center;
@@ -12,7 +10,7 @@ h1 {
 }
 
 p {
-    font-family: Open Sans;
+    font-family: 'Open Sans', sans-serif;
     font-size: 25px;
     color: #332E3C;
 }
@@ -35,12 +33,12 @@ p {
     background-color: #ffffff;
     font-size: 25px;
     font-weight: 500;
-    font-family: Open Sans;
+    font-family: 'Open Sans', sans-serif;
     color: #332E3C;  
     
 }
 .search{
-    font-family: Open Sans;
+    font-family: 'Open Sans', sans-serif;
     padding: 60px 20px 60px 20px;
 
     
@@ -57,7 +55,7 @@ p {
     
 }
 .resultsarea{
-    font-family: Open Sans;
+    font-family: 'Open Sans', sans-serif;
     font-size: 25px;
     padding: 60px 20px 60px 20px;
 
