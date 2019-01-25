@@ -20,14 +20,37 @@ p {
     margin-left: auto;
     margin-right: auto;
     width: 40%;
-    padding: 20px;
+    padding: 50px 20px 70px 20px;
 }
 
 .resultsArea {
     text-align:center;
-    padding: 10px;
+    padding: 50px 20px 70px 20px;
 }
 
 .search{
-    padding: 10px;
+    padding: 60px 20px 70px 20px   
+}
+
+.searchbutton{
+    border-radius: 60px;
+    border-color: #332E3C;
+    border-width: 3.5px;
+    padding: 15px 70px;
+    background-color: #EFE8E3;
+    font-size: 25px;
+    font-weight: 300;
+    color: #332E3C;  
+}
+
+.searchform{
+    width: 400px;
+    height: 65px;
+    border-color: #332E3C;
+    border-width: 2px;
+    padding: 12px 30px;
+    background-color: #EFE8E3;
+    font-size: 25px;
+    font-weight: 500;
+    color: #332E3C;  
 }
