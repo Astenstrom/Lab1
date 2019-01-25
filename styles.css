@@ -13,7 +13,7 @@ h1 {
 
 p {
     font-family: Open Sans;
-    font-size: 20px;
+    font-size: 25px;
     color: #332E3C;
 }
 
@@ -25,10 +25,6 @@ p {
     padding: 70px 20px 70px 20px;
 }
 
-.resultsArea {
-    text-align:center;
-    padding: 50px 20px 70px 20px;
-}
 .searchform{
     width: 400px;
     height: 70px;
@@ -41,6 +37,7 @@ p {
     font-weight: 500;
     font-family: Open Sans;
     color: #332E3C;  
+    
 }
 .search{
     font-family: Open Sans;
@@ -48,7 +45,6 @@ p {
 
     
 }
-
 .searchbutton{
     border-radius: 60px;
     border-color: #332E3C;
@@ -58,8 +54,8 @@ p {
     font-size: 25px;
     font-weight: 300;
     color: #332E3C;  
+    
 }
-
 .resultsarea{
     font-family: Open Sans;
     font-size: 25px;
