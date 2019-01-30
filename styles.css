@@ -1,62 +1,103 @@
 .cinnaBody {
     background-color: #EFE8E3;
-    text-align:center;
+    text-align: center;
     padding: 10px;
 }
 
-h1 {
-    color: #332E3C;
-    text-align: center;
-}
-
-p {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 25px;
-    color: #332E3C;
-}
 
 .header {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 60%;
-    padding: 70px 0px 70px 0px;
+    padding: 20px 0px 20px 0px;
 }
 
-.searchform{
+.searchform {
     width: 400px;
-    height: 70px;
+    height: 35px;
     border-color: #332E3C;
     border-width: 2px;
     border-radius: 60px;
-    padding: 12px 30px;
+    padding: 10px 30px;
     background-color: #ffffff;
     font-size: 25px;
     font-weight: 500;
     font-family: 'Open Sans', sans-serif;
-    color: #332E3C;  
-    
-}
-.search{
-    font-family: 'Open Sans', sans-serif;
-    padding: 60px 20px 60px 20px;
+    color: #332E3C;
+    text-align: center;
 
-    
 }
-.searchbutton{
+
+.search {
+    font-family: 'Open Sans', sans-serif;
+    padding: 20px 20px 20px 20px;
+
+
+}
+
+.searchbutton {
     border-radius: 60px;
     border-color: #332E3C;
-    border-width: 3.5px;
+    border-width: 2.5px;
     padding: 20px 60px 20px 60px;
     background-color: #EFE8E3;
-    font-size: 25px;
+    font-size: 24px;
     font-weight: 300;
-    color: #332E3C;  
+    color: #332E3C;
+    background-color: white;
+
+}
+
+
+h1 {
+    text-align: center;
+    padding: 20px;
+    background-image: linear-gradient(100deg, #B89685 10%, #EFE8E3 130%);
+    margin: 0;
+    font-size: 18;
+    color: #332E3C;
+}
+
+img {
+    display: block;
+    margin: 1rem auto;
+    max-width: 100%;
+}
+
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    color: #332E3C;
+    padding: 10px;
+    margin: 100;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+      margin: 1rem;
+  background: white;
+  box-shadow: 2px 4px 25px rgba(0, 0, 0, .1);
+  border-radius: 12px;
+  overflow: hidden;
+  transition: all .2s linear;
     
 }
-.resultsarea{
-    font-family: 'Open Sans', sans-serif;
-    font-size: 25px;
-    padding: 60px 20px 60px 20px;
 
+
+@media screen and (min-width: 600px) {
+  .card {
+    flex: 1 1 calc(50% - 2rem);
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .card {
+    flex: 1 1 calc(33% - 2rem);
+  }
 }
