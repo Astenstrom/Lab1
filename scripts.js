@@ -49,7 +49,7 @@ function getSynonyms() {
 
 function getDefinition(word,p){
     var request2 = new XMLHttpRequest();
-    var url_wordnik = "http://api.wordnik.com/v4/word.json/" + word + "/definitions?limit=200&includeRelated=false&useCanonical=false&includeTags=false&api_key=6154a97e2c3f02c2541080c31690924ea7cd4fa3ac7e47476";
+    var url_wordnik = "https://api.wordnik.com/v4/word.json/" + word + "/definitions?limit=200&includeRelated=false&useCanonical=false&includeTags=false&api_key=6154a97e2c3f02c2541080c31690924ea7cd4fa3ac7e47476";
     var definition = "";
     
     request2.open('GET', url_wordnik, true);  
