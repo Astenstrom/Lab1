@@ -33,6 +33,11 @@
     padding: 50px 20px 20px 20px;
 }
 
+.resultsarea{
+    font-size: 24px;
+    font-family: 'Open Sans', sans-serif;
+}
+
 .searchbutton {
     border-radius: 60px;
     border-color: #332E3C;
