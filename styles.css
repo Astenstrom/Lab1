@@ -35,7 +35,8 @@
 
 .searchbutton {
     border-radius: 60px;
-    border-width: 2.5px;
+    border-color: #332E3C;
+    border-width: 0px;
     padding: 20px 60px 20px 60px;
     background-color: #EFE8E3;
     font-size: 20px;
