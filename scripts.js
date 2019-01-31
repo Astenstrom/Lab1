@@ -8,7 +8,7 @@ function getSynonyms() {
     //Resource used: https://www.taniarascia.com/how-to-connect-to-an-api-with-javascript/
     const app = document.getElementById("resultsArea");
     const logo = document.createElement('img');
-    logo.src = 'logo_small.png';
+    logo.src = 'logo_small.svg';
     
     const container = document.createElement('div');
     container.setAttribute('class','container');

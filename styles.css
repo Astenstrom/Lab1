@@ -31,6 +31,8 @@
     font-family: 'Open Sans', sans-serif;
     color: #332E3C;
     text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
 
 
 }
@@ -64,6 +66,7 @@ h1 {
     margin: 0;
     font-size: 18;
     color: #332E3C;
+    
 }
 
 img {
@@ -79,6 +82,9 @@ p {
     color: #332E3C;
     padding: 10px;
     margin: 100;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 22px;
+    line-height: 35px;
 }
 
 .container {
