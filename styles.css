@@ -54,6 +54,7 @@ h1 {
     margin: 0 0 2rem 0;
     font-size: 18;
     color: #332E3C;
+    text-transform: capitalize;
 
 }
 
@@ -90,7 +91,6 @@ p {
     font-size: 14px;
     color: #332E3C;
     min-height: 200px;
-    text-transform: capitalize;
 }
 
 /*Media rule for mobile device shrinks cards to 1 column*/
