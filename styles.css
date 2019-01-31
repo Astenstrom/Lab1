@@ -9,6 +9,7 @@
     margin-left: auto;
     margin-right: auto;
     padding: 20px 20px 20px 20px;
+    max-width: 500px;
 }
 
 .searchform {
@@ -72,9 +73,9 @@ p {
 }
 
 .container {
-    /*display flex is causing the card grid    */
+    /*display flex allows for the card grid    */
     display: flex;
-    /*This line causes the cards to wrap to new rows    */
+    /*Flex wrap causes the cards to wrap to new rows based on screen size */
     flex-wrap: wrap;
 }
 
@@ -92,12 +93,14 @@ p {
     text-transform: capitalize;
 }
 
+/*Media rule for mobile device shrinks cards to 1 column*/
 @media screen and (min-width: 600px) {
   .card {
     flex: 1 1 calc(50% - 2rem);
   }
 }
 
+/*Media rule for desktop allows cards to form more columns*/
 @media screen and (min-width: 900px) {
   .card {
     flex: 1 1 calc(33% - 2rem);
