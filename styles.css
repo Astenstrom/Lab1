@@ -8,7 +8,6 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 80%;
     padding: 20px 20px 20px 20px;
 }
 
@@ -49,9 +48,9 @@
 
 h1 {
     text-align: center;
-    padding: 20px;
+    padding: 1.5rem 2.5rem;
     background-image: linear-gradient(100deg, #B89685 10%, #EFE8E3 130%);
-    margin: 0;
+    margin: 0 0 2rem 0;
     font-size: 18;
     color: #332E3C;
 
@@ -67,10 +66,9 @@ img {
 p {
     font-family: 'Open Sans', sans-serif;
     color: #332E3C;
-    padding: 10px;
-    margin: 100;
     font-size: 22px;
-    line-height: 35px;
+    padding: 0 2.5rem 2.5rem;
+    margin: 0;
 }
 
 .container {
@@ -94,16 +92,20 @@ p {
     text-transform: capitalize;
 }
 
-
-@media screen and (max-width: 500px) {
-    .card {
-        flex: 1 1 calc(50% - 2rem);
-    }
+@media screen and (min-width: 600px) {
+  .card {
+    flex: 1 1 calc(50% - 2rem);
+  }
 }
 
-@media screen and (max-width: 1200px) {
-    .card {
-        flex: 1 1 calc(33% - 2rem);
-    }
+@media screen and (min-width: 900px) {
+  .card {
+    flex: 1 1 calc(33% - 2rem);
+  }
 }
 
+@media screen and (max-width: 600px) {
+   .searchform{
+        width: 80%;
+  }
+}
