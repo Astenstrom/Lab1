@@ -113,7 +113,7 @@ p {
 }
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 500px) {
   .card {
     flex-shrink: 1;
       
@@ -128,10 +128,10 @@ p {
   }
 }
 
-/*@media screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
    .searchform{
         width: 80%;
-  }*/
+  }
     
     
     
