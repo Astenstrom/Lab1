@@ -91,6 +91,7 @@ p {
     font-size: 14px;
     color: #332E3C;
     min-height: 200px;
+    min-width: 250;
 }
 
 /*Media rule for mobile device shrinks cards to 1 column*/
