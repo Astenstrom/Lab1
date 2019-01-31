@@ -88,7 +88,9 @@ p {
 }
 
 .container {
+    /*display flex is causing the card grid    */
     display: flex;
+    /*This line causes the cards to wrap to new rows    */
     flex-wrap: wrap;
 }
 
@@ -103,7 +105,7 @@ p {
   font-size: 14px;
   color: #332E3C;
   min-width: 250px;
-  max-width: 2000px;
+  max-width: 1000px;
   min-height: 200px;
   text-transform: capitalize;
 
@@ -113,7 +115,7 @@ p {
 
 @media screen and (min-width: 500px) {
   .card {
-    flex: 1 1 calc(50% - 7rem);
+    flex-shrink: 1;
       
       
   }
@@ -121,7 +123,7 @@ p {
 
 @media screen and (min-width: 900px) {
   .card {
-    flex: 1 1 calc(33% - 2rem);
+    flex:1 1 calc(33% - 2rem);
       
   }
 }
